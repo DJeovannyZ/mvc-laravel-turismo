@@ -58,7 +58,7 @@
                                 @endif
                                 <small>/ persona</small>
                             </span>
-                            <a class="btn" href="{{ url('/lugares/'.$place->slug) }}">Ver detalle</a>
+                            <a class="btn" href="{{ route('places.show', $place->slug) }}">Ver detalle</a>
                         </div>
                     </div>
                 </article>

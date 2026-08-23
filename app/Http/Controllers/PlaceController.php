@@ -18,4 +18,19 @@ class PlaceController extends Controller
             'featured' => $this->places->featured(),
         ]);
     }
+
+    public function show(string $slug): View
+    {
+        $place = $this->places->findBySlug($slug);
+
+        abort_unless($place !== null, 404, "El lugar turistico [$slug] no existe en el catalogo.");
+
+        return view('places.show', [
+            'place' => $place,
+            'related' => $this->places->all()
+                ->reject(fn ($candidate) => $candidate->slug === $place->slug)
+                ->filter(fn ($candidate) => $candidate->categoria === $place->categoria)
+                ->values(),
+        ]);
+    }
 }
