@@ -6,7 +6,7 @@ Catalogo web de lugares turisticos de El Salvador implementando el patron MVC en
 
 ## Estado
 
-- [ ] F01 - Scaffold Laravel
+- [x] F01 - Scaffold Laravel
 - [ ] F02 - Datos JSON y capa de modelo
 - [ ] F03 - Listado de lugares
 - [ ] F04 - Detalle de lugar
@@ -14,3 +14,9 @@ Catalogo web de lugares turisticos de El Salvador implementando el patron MVC en
 - [ ] F06 - Layout e interfaz
 - [ ] F07 - Documentacion README
 - [ ] Release 1.0.0
+
+## Stack
+
+- PHP 8.5 / Laravel 13
+- Fuente de datos: archivos JSON (`storage/app/data/lugares.json`)
+- Servidor de desarrollo: `php artisan serve`
