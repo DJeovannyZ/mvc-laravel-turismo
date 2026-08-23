@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "slug": "playa-el-tunco",
+        "titulo": "Playa El Tunco",
+        "departamento": "La Libertad",
+        "categoria": "Playa",
+        "descripcion": "Uno de los destinos costeros mas famosos de El Salvador, conocido mundialmente por sus olas ideales para surf y su ambiente bohemio. Sus aguas tibias del Pacifico, los restaurants frente al mar y la vida nocturna lo convierten en el punto de encuentro de viajeros nacionales y extranjeros.",
+        "precio_entrada": 1.0,
+        "precio_tour": 35.0,
+        "servicios": ["Surf", "Restaurantes", "Hospedaje", "Vida nocturna"],
+        "imagen": "/images/places/playa-el-tunco.svg",
+        "destacado": true
+    },
+    {
+        "id": 2,
+        "slug": "ruta-de-las-flores",
+        "titulo": "Ruta de las Flores",
+        "departamento": "Ahuachapan y Sonsonate",
+        "categoria": "Ruta turistica",
+        "descripcion": "Corredor turistico de aproximadamente 36 km que atraviesa pintorescos pueblos como Nahuizalco, Salcoatitan, Juayua, Apaneca y Concepcion de Ataco. Famoso por sus ferias gastronomicas de fin de semana, cafetales, miradores y cascadas entre montanas cubiertas de flores.",
+        "precio_entrada": 0.0,
+        "precio_tour": 45.0,
+        "servicios": [
+            "Gastronomia",
+            "Cafe de altura",
+            "Miradores",
+            "Artesanias"
+        ],
+        "imagen": "/images/places/ruta-de-las-flores.svg",
+        "destacado": true
+    },
+    {
+        "id": 3,
+        "slug": "volcan-santa-ana",
+        "titulo": "Volcan de Santa Ana (Ilamatepec)",
+        "departamento": "Santa Ana",
+        "categoria": "Naturaleza",
+        "descripcion": "El volcan mas alto de El Salvador con 2,381 metros sobre el nivel del mar. Su crater alberga una laguna turquesa de aguas acidas. El ascenso guiado atraviesa bosque nuboso y ofrece vistas panoramicas al Lago de Coatepeque y a los volcanes cercanos.",
+        "precio_entrada": 6.0,
+        "precio_tour": 25.0,
+        "servicios": [
+            "Senderismo",
+            "Guias locales",
+            "Laguna de crater",
+            "Vistas panoramicas"
+        ],
+        "imagen": "/images/places/volcan-santa-ana.svg",
+        "destacado": true
+    },
+    {
+        "id": 4,
+        "slug": "lago-de-coatepeque",
+        "titulo": "Lago de Coatepeque",
+        "departamento": "Santa Ana",
+        "categoria": "Naturaleza",
+        "descripcion": "Lago de origen volcanico ubicado en una caldera de 6 km de diametro, considerado uno de los mas bellos de Centroamerica. Sus aguas azul intenso rodeadas de cerros ofrecen restaurantes flotantes, deportes acuaticos y hospedajes con vista al lago.",
+        "precio_entrada": 0.0,
+        "precio_tour": 30.0,
+        "servicios": [
+            "Deportes acuaticos",
+            "Restaurantes",
+            "Muelle",
+            "Hospedaje"
+        ],
+        "imagen": "/images/places/lago-coatepeque.svg",
+        "destacado": false
+    },
+    {
+        "id": 5,
+        "slug": "suchitoto",
+        "titulo": "Suchitoto y Lago Suchitlan",
+        "departamento": "Cuscatlan",
+        "categoria": "Cultura",
+        "descripcion": "Pueblo colonial conocido como la capital cultural de El Salvador. Sus calles empedradas, la iglesia Santa Lucia del siglo XVIII y las galerias de arte conviven con el Lago Suchitlan, donde se puede navegar entre aves migratorias y ver cascadas como Los Tercios.",
+        "precio_entrada": 0.0,
+        "precio_tour": 40.0,
+        "servicios": [
+            "Arquitectura colonial",
+            "Galerias de arte",
+            "Avistamiento de aves",
+            "Festival de arte"
+        ],
+        "imagen": "/images/places/suchitoto.svg",
+        "destacado": true
+    },
+    {
+        "id": 6,
+        "slug": "joya-de-ceren",
+        "titulo": "Joya de Ceren",
+        "departamento": "La Libertad",
+        "categoria": "Arqueologia",
+        "descripcion": "Sitio arqueologico declarado Patrimonio de la Humanidad por la UNESCO en 1993. Conocido como la Pompeya de America, preserva una aldea maya sepultada por la ceniza del volcan Laguna Caldera alrededor del ano 600 d.C., incluyendo viviendas, bodegas y saunas.",
+        "precio_entrada": 3.0,
+        "precio_tour": 20.0,
+        "servicios": ["Sitio UNESCO", "Museo comunitario", "Tour guiado"],
+        "imagen": "/images/places/joya-de-ceren.svg",
+        "destacado": false
+    },
+    {
+        "id": 7,
+        "slug": "parque-nacional-los-volcanes",
+        "titulo": "Parque Nacional Cerro Verde y Los Volcanes",
+        "departamento": "Santa Ana",
+        "categoria": "Naturaleza",
+        "descripcion": "Parque nacional ubicado en la cima extinta del volcan Cerro Verde a 2,030 metros. Desde sus miradores se aprecian los volcanes Izalco e Ilamatepec. Alberga bosque nuboso con orquideas, colibries y senderos interpretativos guiados por guardaparques.",
+        "precio_entrada": 3.0,
+        "precio_tour": 15.0,
+        "servicios": ["Senderismo", "Miradores", "Orquidiario", "Picnic"],
+        "imagen": "/images/places/cerro-verde.svg",
+        "destacado": false
+    },
+    {
+        "id": 8,
+        "slug": "playa-el-cuco",
+        "titulo": "Playa El Cuco",
+        "departamento": "San Miguel",
+        "categoria": "Playa",
+        "descripcion": "Extensa playa de arena oscura en el oriente del pais, famosa por sus olas de clase mundial en Punta Mango y su ambiente relajado. Cerca se encuentra la isla Conejo y los manglares de la barra de Santiago, ideales para tours de pesca artesanal.",
+        "precio_entrada": 1.0,
+        "precio_tour": 30.0,
+        "servicios": [
+            "Surf",
+            "Restaurantes de mariscos",
+            "Tours de pesca",
+            "Camping"
+        ],
+        "imagen": "/images/places/playa-el-cuco.svg",
+        "destacado": false
+    },
+    {
+        "id": 9,
+        "slug": "bosque-el-imposible",
+        "titulo": "Parque Nacional El Imposible",
+        "departamento": "Ahuachapan",
+        "categoria": "Naturaleza",
+        "descripcion": "El area natural protegida mas importante de El Salvador con 5,000 hectareas de bosque tropical. Debe su nombre al antiguo camino peligroso que cruzaba la zona. Alberga mas de 400 especies de aves, pumas, senderos hacia cascadas y miradores fronterizos con Guatemala.",
+        "precio_entrada": 3.5,
+        "precio_tour": 25.0,
+        "servicios": [
+            "Senderismo",
+            "Cascadas",
+            "Avistamiento de aves",
+            "Camping"
+        ],
+        "imagen": "/images/places/bosque-imposible.svg",
+        "destacado": false
+    },
+    {
+        "id": 10,
+        "slug": "golfo-de-fonseca",
+        "titulo": "Golfo de Fonseca e Isla Meanguera",
+        "departamento": "La Union",
+        "categoria": "Islas",
+        "descripcion": "Bahia compartida por El Salvador, Honduras y Nicaragua, salpicada de islas volcanicas. Desde el muelle de Cutuco zarpan lanchas hacia Meanguera del Golfo, donde destacan los playones de arena blanca, el volvan Ereguayquin y la pesca artesanal.",
+        "precio_entrada": 2.0,
+        "precio_tour": 50.0,
+        "servicios": [
+            "Tours en lancha",
+            "Playas virgenes",
+            "Pesca artesanal",
+            "Manglares"
+        ],
+        "imagen": "/images/places/golfo-fonseca.svg",
+        "destacado": false
+    }
+]
