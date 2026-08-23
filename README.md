@@ -142,12 +142,21 @@ Esto demuestra que el rol "Model" del patron MVC no depende de Eloquent ni de un
 
 ## Capturas de pantalla
 
-> Se agregaran en la fase release con el sistema funcionando:
->
-> 1. Listado de lugares (home)
-> 2. Detalle de un lugar turistico
-> 3. Formulario de contacto
-> 4. Confirmacion de envio del formulario
+### 1. Listado de lugares turisticos (home)
+
+![Listado de lugares](docs/capturas/01-listado-lugares.png)
+
+### 2. Detalle de un lugar turistico
+
+![Detalle de lugar](docs/capturas/02-detalle-lugar.png)
+
+### 3. Formulario de contacto
+
+![Formulario de contacto](docs/capturas/03-formulario-contacto.png)
+
+### 4. Confirmacion de envio del formulario
+
+![Confirmacion de envio](docs/capturas/04-confirmacion.png)
 
 ---
 
@@ -159,5 +168,5 @@ Esto demuestra que el rol "Model" del patron MVC no depende de Eloquent ni de un
 - [x] F04 - Detalle de lugar
 - [x] F05 - Formulario de contacto
 - [x] F06 - Layout e interfaz
-- [ ] F07 - Documentacion README
+- [x] F07 - Documentacion README
 - [ ] Release 1.0.0
