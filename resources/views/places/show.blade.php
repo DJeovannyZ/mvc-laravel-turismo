@@ -82,7 +82,7 @@
                     <strong>{{ Number::currency($place->precioTour, 'USD') }}</strong>
                 </div>
                 <p class="nota">Precios de referencia por persona en dolares (USD).</p>
-                <a class="btn" href="{{ url('/contacto?lugar='.$place->slug) }}">Solicitar informacion</a>
+                <a class="btn" href="{{ route('contact.create', ['lugar' => $place->slug]) }}">Solicitar informacion</a>
             </aside>
         </div>
 
